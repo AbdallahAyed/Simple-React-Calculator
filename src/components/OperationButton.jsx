@@ -1,4 +1,4 @@
-import { ACTIONS } from "../logic/reducer";
+import { ACTIONS } from "../App";
 
 export default function OperationButton({ dispatch, operation }) {
   return (

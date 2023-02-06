@@ -5,6 +5,14 @@ import { reducer } from "./logic/reducer";
 import { formatOperand } from "./logic/formatOperand";
 import "./styles.css";
 
+export const ACTIONS = {
+  ADD_DIGIT: "add-digit",
+  CHOOSE_OPERATION: "choose-operation",
+  CLEAR: "clear",
+  DELETE_DIGIT: "delete-digit",
+  EVALUATE: "evaluate",
+};
+
 function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(
     reducer,

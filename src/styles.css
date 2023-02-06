@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@600&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -15,6 +18,7 @@ body {
   );
   background-repeat: no-repeat;
   height: 100vh;
+  font-weight: 400;
 }
 
 #root {
@@ -45,6 +49,7 @@ body {
   outline: none;
   background-color: rgba(255, 255, 255, 0.75);
   box-shadow: rgb(255 141 45 / 35%) 1px 20px 36px -9px inset;
+  color: #202020;
 }
 
 .calculator-grid > button:hover,
